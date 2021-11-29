@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+
+<form name="contact" data-netlify="true">
+    <input type="text" name="name" value="name" /><br>
+    <input type="text" name="e-mail" value="e-mail" /><br>
+    <textarea name="textarea" rows="10" cols="16"></textarea><br>
+    <input type="submit" /><br>
+</form>
+<a href="index.html">Terug naar Homepagina</a>
+
+<h1>Nieuw formulier</h1>
+<form name="recipe" method="POST" data-netlify="true">
+    <p>
+        <label>Name:<input type="text" name="name"/></label>
+    </p>
+    <p>
+        <label>Email:<input type="email" name="email" /></label>
+    </p>
+    <p>
+        <label>Telephone Number:<input type="tel" name="telephone-number" /></label>
+    </p>
+    <p>
+        <label>Age:<input type="number" name="age" /></label>
+    </p>
+    <p>
+        <label>Date of birth:<input type="date" name="date-of-birth" /></label>
+    </p>
+    <p>
+        <label>Gender:<br>
+            <label>Female:<input type="radio" name="gender" value="female"/></label>
+            <label>Male:<input type="radio" name="gender" value="male" /></label>
+            </label>
+    </p>
+    <p>
+        <label>Favorite cuisine:</label><br>
+            <label>French:<input type="checkbox" name="favorite-cuisine" value="french" /></label><br>
+            <label>Italian:<input type="checkbox" name="favorite-cuisine" value="italian" /></label><br>
+            <label>Spanish:<input type="checkbox" name="favorite-cuisine" value="spanish" /></label><br>
+            <label>Arabic:<input type="checkbox" name="favorite-cuisine" value="arabic" /></label><br>
+    </p>
+    <p>
+        <label>Favorite apron color:<input type="color" name="favcolor" /></label>
+    </p>
+    <p>
+        <label>Biography:<br>
+            <textarea row="10" cols="15" name="bio"></textarea></label>
+    </p>
+    <p>
+        <label>Upload your latest recipe:<br>
+            <input type="file" name="file" /></label>
+    </p>
+    <p>
+        <label>URL to recipe website:<br>
+            <input type="url" name="url" /></label>
+    </p>
+    <p>
+        <button type="Submit">Submit</button>
+        <button type="reset">Reset</button>
+    </p>
+</form>
+
+</html>

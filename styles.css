@@ -1,0 +1,112 @@
+
+body { 
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    font-size: 1em;
+}
+
+.container {
+    width: 80%;
+    margin:auto;
+    text-align: center;
+}
+
+.border {
+    border:2px solid black;
+    border-style: dotted;
+    margin: 10px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+
+    padding: 10px 10px 20px 10px;
+}
+
+.navbar {
+    list-style: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar li {
+    float:left;
+    border-right: 1px solid #bbb;
+}
+
+.navbar li:last-child {
+    border-right: none;
+  }
+
+.navbar li a{
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover{
+    background-color: #555;
+}
+
+.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+
+.border section {
+    border:10px solid #04AA6D;
+    border-style:groove
+}
+
+.border header {
+    border:5px solid lightgreen;
+    border-style: double;
+}
+
+h1.green-title{
+    color: #04AA6d;
+    font-size: 0.8em;
+}
+
+.font-size{
+    font-size: 40px;
+}
+
+.font-family{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar2 {
+    list-style: none;
+    margin:0;
+    padding:0;
+}   
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width:600px) {
+    .navbar li a {
+        width: 250px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    body {
+        background-color: #F5FFFA;
+        color: #2F4F4F;
+        line-height: 1.5em;
+    }
+    h1.green-title {
+        font-size: 2em;
+    }
+    
+}
